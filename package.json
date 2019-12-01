@@ -1,0 +1,23 @@
+{
+  "name": "first-aid-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadysadaqah/First-aid-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fadysadaqah/First-aid-app/issues"
+  },
+  "homepage": "https://github.com/fadysadaqah/First-aid-app#readme"
+}
