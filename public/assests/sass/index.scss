@@ -1,1 +1,21 @@
-body{background:beige;}
+* {
+    font-family: roboto;
+}
+.cards{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: scroll;
+    padding-top: 17vw;
+    .card{
+        width: 27vw;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 0 8px rgba($color: #000000, $alpha: 0.1);
+        margin: 1vw;
+        img{
+            width: 100%;
+        }
+    }
+}

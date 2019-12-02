@@ -1,5 +1,24 @@
-body {
-  background: beige;
+* {
+  font-family: roboto;
+}
+
+.cards {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: scroll;
+  padding-top: 17vw;
+}
+.cards .card {
+  width: 27vw;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  margin: 1vw;
+}
+.cards .card img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=index.css.map */

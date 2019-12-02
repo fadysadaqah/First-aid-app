@@ -1,0 +1,31 @@
+.m-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vw;
+  width: 100%;
+  background: #35323f;
+  padding: 0 2vw;
+  position: fixed;
+  z-index: 500;
+}
+.m-navbar .navbar-left {
+  display: flex;
+  align-items: center;
+}
+.m-navbar .navbar-left .page-name {
+  color: white;
+  font-size: 4vw;
+  font-weight: 400;
+}
+.m-navbar .navbar-right {
+  display: flex;
+  align-items: center;
+}
+.m-navbar .navbar-right .menu-icon {
+  color: white;
+  font-weight: 100;
+  font-size: 7vw;
+}
+
+/*# sourceMappingURL=navbar.css.map */
