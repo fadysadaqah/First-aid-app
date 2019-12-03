@@ -1,21 +1,30 @@
 .m-navbar {
+  top:0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 15vw;
+  height: 12vw;
   width: 100%;
   background: rgb(53, 50, 63);
+  background: #005e5e;
   padding: 0 2vw;
-  position: fixed;
+  position: fixed !important;
   z-index: 500;
+  
 
   .navbar-left {
     display: flex;
     align-items: center;
+    
     .page-name {
       color: white;
       font-size: 4vw;
       font-weight: 400;
+    }
+    .back-icon {
+        color: white;
+        font-weight: 100;
+        font-size: 7vw;
     }
 }
 .navbar-right {

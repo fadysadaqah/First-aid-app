@@ -1,40 +1,41 @@
 * {
     font-family: roboto;
 }
-.logo{
-    display: flex;
-    justify-content: center ;
-    padding-top: 17vw;
-
-    width: 100%;
-    img{
-        width: 50%;
-    }
+.word{
+    padding-top: 15vw !important;
+    background:white;
+    width:100% !important;
+    padding:5vw ;
+        img{
+            width: 100% !important;
+        }
 }
 .cards{
     padding: 20px;
+    padding-top: 17vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     overflow: scroll;
     .card{
-        width: 27vw;
+        width: 100%;
         border-radius: 10px;
         overflow: hidden;
         box-shadow: 0 0 8px rgba($color: #000000, $alpha: 0.1);
         margin: 1vw;
         text-align: center;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
-        // padding: 2vw;
         font-size: 3vw;
-        img{
-            width: 100%;
-            height: 15vw;
+        .img{
+            
+            width: 50vw;
+            height: 25vw;
         }
         .card-text-div{
-            height: 12vw;
+            height: 100%;
+            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
